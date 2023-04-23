@@ -1,0 +1,59 @@
+/* General */
+.perfil-padding{
+    padding:10px;
+}
+
+/* Seccion datos */
+
+.imagen-contenedor{
+	text-align:center;
+}
+.imagen-perfil{
+    object-fit: cover;
+    border-radius:50%;
+    width: 40%;
+}
+.margen-nombre{
+    margin-top:20px;
+}
+.separador-perfil{
+    border-bottom:3px solid orange;
+    margin-bottom: 12px !important;
+    width:80px;
+    margin: 0 auto;
+}
+.center{
+    text-align:center;
+}
+.divisor-derecho{
+    border-right:1px solid rgba(167, 167, 167, 0.385);
+    height:100%;
+}
+
+@media(max-width:992px){
+    .divisor-derecho{
+        border-right:none;
+    }
+}
+
+/* Seccion opciones */
+
+.opciones{
+    padding:32px 0;
+    border:1px solid rgba(174, 174, 174, 0.35);
+    text-align:center;
+    height:150px
+}
+.opciones>svg{
+    text-align:center;
+    margin:0 auto;
+}
+.opciones>p{
+    padding:10px 0;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgba(206, 206, 206, 0.433);
+    margin:2.5% 0;
+  }

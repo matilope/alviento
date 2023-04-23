@@ -1,0 +1,13 @@
+.footer-main{
+    background-color: #e4e4e487;
+    border-top:1px solid rgba(92, 92, 92, 0.213);
+    padding-top:8px;
+}
+.copy{
+    background-color: rgba(0, 0, 0, 0.857);
+    border-top:1px solid rgba(92, 92, 92, 0.213);
+}
+.button-footer{
+    background-color: transparent;
+    color:black;
+}

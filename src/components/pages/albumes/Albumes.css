@@ -1,0 +1,12 @@
+.corrector-imagen {
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.marg-top {
+  margin-top: 1rem !important;
+}
+
+.btn:hover {
+  opacity: 80%
+}

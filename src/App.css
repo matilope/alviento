@@ -1,0 +1,177 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Piazzolla', serif !important;
+}
+
+.style-main {
+  background-color: rgba(228, 228, 228, 0.186) !important;
+  overflow-x: hidden;
+}
+
+.style-login {
+  padding: 30px 0px;
+  display:none;
+}
+
+@keyframes rotacion {
+  0% {
+      transform: rotate(0deg);
+  }
+
+  25% {
+      transform: rotate(90deg);
+  }
+
+  50% {
+      transform: rotate(180deg);
+  }
+
+  75% {
+      transform: rotate(270deg);
+  }
+
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+
+/* Inicio sesion */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+form[data-amplify-authenticator-signin],
+[data-amplify-authenticator-signup] {
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+}
+
+button[data-variation="link"] {
+  color: #AE8853 !important;
+  font-weight: bold !important;
+}
+
+div[data-amplify-router] {
+  border-bottom-right-radius: 20% !important;
+  border-bottom-left-radius: 20% !important;
+}
+
+button[data-state="inactive"] {
+  color: #571A45 !important;
+  background-color: white !important;
+  font-weight: 700 !important;
+}
+
+button[data-state="active"] {
+  background-color: #AE8853 !important;
+  color: white !important;
+  border-color: transparent !important;
+}
+
+form[data-amplify-authenticator-signin] button[type="submit"], form[data-amplify-authenticator-signup] button[type="submit"] {
+  background-color: #AE8853 !important;
+  width: 40% !important;
+  display: block;
+  margin: 0 auto !important;
+  text-align: center;
+  color: white !important;
+  border-color: transparent !important;
+  position: absolute;
+  bottom: 16px;
+  left: 0;
+  right: 0;
+  margin-bottom:20px;
+}
+
+.federated-sign-in-button {
+  background-color: #571A45 !important;
+}
+
+.amplify-text {
+  color: white;
+}
+
+path[fill="#1877F2"] {
+  fill: white;
+}
+
+path[fill="#4285F4"],
+[fill="#34A853"],
+[fill="#FBBC05"],
+[fill="#EB4335"] {
+  fill: white;
+}
+
+path[fill="currentColor"] {
+  fill: #571A45;
+}
+
+div[data-amplify-router] {
+  box-shadow: 10px 10px 20px #999999 !important;
+}
+
+form[data-amplify-authenticator-signin], form[data-amplify-authenticator-signup] button {
+  border-color: transparent !important;
+}
+
+.federated-sign-in-container {
+  margin: 32px 0px;
+}
+
+.amplify-divider{
+  display:none;
+}
+
+h1[data-name="inicio"]{
+  color:#571A45;
+  text-align: center;
+  font-weight:bold !important;
+  margin-top:20px !important;
+}
+
+
+  
+@keyframes apareceAnimacion {
+  0% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+
+.apareceAnimacion{
+  animation: apareceAnimacion 1s;
+}
+
+.aparece{
+  display:flex;
+  justify-content: center;
+}
+
+
+.desaparece{
+  display:none;
+}
+
+.desvanece{
+  animation: desvanece 1s;
+}
+
+@keyframes desvanece {
+  0% {
+      opacity: 1;
+  }
+
+  100% {
+      opacity: 0;
+  }
+}

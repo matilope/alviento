@@ -1,0 +1,115 @@
+header {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    background-color: white;
+}
+
+header>div {
+    display: flex;
+    display: -ms-flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+header>div>a>div {
+    height: 155px;
+    width: 104px;
+}
+
+header>div>h1 {
+    color: #AE8853;
+    font-weight: bold;
+    font-size: 70px !important;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px !important;
+    margin: 0px !important;
+}
+
+ul>li {
+    height: 42px;
+    width: 42px;
+    position: relative;
+    display: inline-block;
+    padding: 2px;
+    color: white !important;
+}
+
+ul>li ul {
+    display: none;
+    position: absolute;
+    padding-left: 0px;
+    margin: 0;
+    top: 42px;
+    right: 0;
+    z-index: 2;
+    background-color: #AE8853;
+}
+
+ul>li:hover {
+    font-weight: bold;
+}
+
+ul>li:hover ul {
+    display: block;
+    margin: 0;
+    cursor: pointer;
+}
+
+ul>li>ul li {
+    margin: 0px;
+    position: relative;
+    padding: 10px 2px;
+    width: 120px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.extra-options {
+    display: none !important;
+}
+
+ul>li>ul li a {
+    text-align: center;
+    color:white;
+    text-decoration: none;
+}
+ul>li>ul li a:hover {
+    font-weight:bold;
+    color:#571A45;
+}
+
+ul li ul li{
+    height: auto;
+}
+
+.denegado{
+    padding:10px;
+}
+
+@media(max-width:1200px){
+    header{
+        width: auto;
+    }
+}
+
+@media(max-width:600px){
+    header div h1{
+        font-size:50px !important;
+    }
+    header > div > a > div{
+        background: url("assets/images/logo-min.png") no-repeat !important;
+        width: 60px;
+        height: 89px;
+    }
+}
+
+@media(max-width:420px){
+    header div h1{
+        font-size:36px !important;
+    }
+}

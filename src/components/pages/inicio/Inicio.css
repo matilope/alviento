@@ -1,0 +1,124 @@
+button{
+    margin-left:0 !important;
+}
+
+div[class="col-4"] button:first-of-type {
+    background-color: #AE8853; /* rgb(176,143,105) ese es el del pdf */
+    text-transform: capitalize !important;
+    padding: 14px;
+    border-radius: 20px !important;
+    border: none;
+    color: white;
+    font-size: 26px !important;
+    margin: 20px auto;
+}
+
+div[class="col-4"] button:nth-of-type(2) {
+    background-color: #571A45; /* rgb(93,54,78) ese es el del pdf */
+    text-transform: capitalize !important;
+    padding: 14px;
+    border-radius: 20px !important;
+    border: none;
+    color: white;
+    font-size: 26px !important;
+    margin: 20px auto;
+}
+
+div[class="col-4"] h1 {
+    color: #666666;;
+    font-weight: bold !important;
+    text-align: start;
+    font-size:3rem;
+}
+
+div[class="col-4"] {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+}
+
+.inicio {
+    position: relative;
+}
+
+.socials {
+    background: url("assets/images/redes-sociales.png") no-repeat top right;
+    width: 81px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor:pointer;
+}
+
+.flecha {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.desaparece {
+    display: none;
+}
+
+.desvanece {
+    animation: desvanece 1s;
+}
+
+
+@keyframes desvanece {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.centrado{
+    text-align: center;
+}
+
+/* img[alt="Presentacion camara fotografica"]{
+    filter:drop-shadow(1px 1px 1px #571A45) drop-shadow(1px 1px 1px #AE8853);
+} */
+
+
+
+
+
+section{
+    padding:20px;
+}
+
+#clientes{
+    position:relative;
+    height:500px;
+}
+
+#clientes h2{
+    color: #666666;;
+    font-weight: bold !important;
+    text-align: start;
+    font-size:2rem;
+}
+
+#clientes img:first-of-type{
+    position:absolute;
+    left:40px;
+    bottom:40px;
+}
+
+#clientes img:nth-of-type(2){
+    position:absolute;
+    right:300px;
+    bottom:0px;
+}
+
+#clientes img:nth-of-type(3){
+    position:absolute;
+    right:0;
+    top:0;
+}

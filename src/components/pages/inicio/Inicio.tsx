@@ -10,23 +10,6 @@ function Inicio() {
   /* Animacion desvanecimiento inicio */
 
   useEffect(() => {
-    const ingreso = document.querySelector(".clientes");
-    const inicio = document.querySelector(".inicio");
-    const login = document.querySelector(".style-login");
-    ingreso?.addEventListener('click', () => {
-      setTimeout(() => {
-        inicio?.classList.add("desvanece");
-      }, 1000);
-      setTimeout(() => {
-        inicio?.classList.add("desaparece");
-      }, 2000);
-      setTimeout(() => {
-        login?.classList.add("apareceAnimacion");
-      }, 2000);
-      setTimeout(() => {
-        login?.classList.add("aparece");
-      }, 3000);
-    });
   });
 
   /* Chequear si esta logueado */
